@@ -3,7 +3,7 @@ ngx_addon_name=ngx_http_esi_filter_module
 if test -n "$ngx_module_link"; then
     ngx_module_type=HTTP_FILTER
     ngx_module_name=$ngx_addon_name
-    ngx_module_srcs="$ngx_addon_dir/src/ngx_http_esi_filter_module.c $ngx_addon_dir/ngx_esi_parser.c $ngx_addon_dir/ngx_esi_tag.c \
+    ngx_module_srcs="$ngx_addon_dir/ngx_http_esi_filter_module.c $ngx_addon_dir/ngx_esi_parser.c $ngx_addon_dir/ngx_esi_tag.c \
                 $ngx_addon_dir/ngx_buf_util.c "
    
     . auto/module
